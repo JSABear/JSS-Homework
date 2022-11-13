@@ -1,4 +1,6 @@
+'use strict';
 
+let kohde = document.querySelector('#kohde');
 
 let luvut = [];
 
@@ -8,8 +10,4 @@ for (let i = 0; i < 5; i++){
 
 for (let i = 4; i >= 0; i--){
     console.log(luvut[i])
-}
-
-for (let i = 0; i < 5; i++){
-    console.log(luvut[4 - i])
 }

@@ -1,3 +1,6 @@
+'use strict';
+
+let kohde = document.querySelector('#kohde');
 
 let num = parseInt(prompt("Anna luku: "));
 let participants = [];
