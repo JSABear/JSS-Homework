@@ -2,4 +2,4 @@
 
 let name = prompt("What is your name?")
 
-document.querySelector('#kohde'). innerHTML = "Moi "+ name
+document.querySelector('#kohde'). innerHTML = "Hello, "+ name + "!"
