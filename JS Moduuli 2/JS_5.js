@@ -2,18 +2,18 @@
 
 let kohde = document.querySelector('#kohde');
 
-let num = []
+let num = [];
+let end = false;
+let input = 0;
 
-let end = false
+while (end == false){
 
-while (end == true){
+    input = parseInt(prompt("Anna luku: "));
 
-    input = parseInt(prompt("Anna luku: "))
-
-    if (num.filter(value=> value==input).length > 0) {
-        console.log(input)
-        num.push(input)
-        console.log("Number has already been entered.")
+    if (num.includes(input)) {
+        console.log(input);
+        num.push(input);
+        console.log("Number has already been entered.");
         end = true
         break
     }
