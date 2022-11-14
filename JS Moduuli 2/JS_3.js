@@ -5,7 +5,7 @@ let kohde = document.querySelector('#kohde');
 let dogs = []
 
 for (let i = 0; i < 6; i++) {
-    dogs[i] = prompt("Anna luku koiran nimi: ");
+    dogs[i] = prompt("Anna koiran nimi: ");
 }
 
 dogs.sort();

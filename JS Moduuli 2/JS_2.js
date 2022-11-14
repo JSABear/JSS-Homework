@@ -19,5 +19,4 @@ for (let i = 0; i < num; i++){
 }
 html += '</ol>'
 
-let kohde = document.querySelector('#kohde');
 kohde.innerHTML = html
