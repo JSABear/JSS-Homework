@@ -9,5 +9,5 @@ trig.addEventListener("mouseover", (event) => {
 })
 
 trig.addEventListener("mouseleave", (event) => {
-  document.getElementById("target").src = "img/pica.jpg";
+  document.getElementById("target").src = "img/picA.jpg";
 })
